@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="bod">
+        <div class="screen">
+            <input type="text" class="ans" id="answ" value="" disabled>
+            <input type="text" class="que" id="quest" value="0" disabled>
+        </div>
+        <div class="keyb">
+
+            <div class="row1">
+                <button class="key" id="Ac" onclick="cls()">
+                    Ac
+                </button>
+                <button class="key" onclick="keyb(7)">
+                    7
+                </button>
+                <button class="key" onclick="keyb(4)">
+                    4
+                </button>
+                <button class="key" onclick="keyb(1)">
+                    1
+                </button>
+                <button class="key" onclick="keyb(0)">
+                    0
+                </button>
+
+            </div>
+
+            <div class="row1">
+                <button class="key" onclick="keyb('(')">
+                    (
+                </button>
+                <button class="key" onclick="keyb(8)">
+                    8
+                </button>
+                <button class="key" onclick="keyb(5)">
+                    5
+                </button>
+                <button class="key" onclick="keyb(2)">
+                    2
+                </button>
+                <button class="key" onclick="keyb('.')">
+                    .
+                </button>
+
+            </div>
+            <div class="row1">
+                <button class="key" onclick=" keyb(')')">
+                    )
+                </button>
+                <button class="key" onclick="keyb(9)">
+                    9
+                </button>
+                <button class="key" onclick="keyb(6)">
+                    6
+                </button>
+                <button class="key" onclick="keyb(3)">
+                    3
+                </button>
+                <button class="key" id="del" onclick="back()">
+                    Del
+                </button>
+
+            </div>
+            <div class="row1">
+                <button class="key" id="div" onclick=" keyb('/')">
+                    ÷ 
+                </button>
+                <button class="key" id="mult" onclick=" keyb('*')">
+                    x
+                </button>
+                <button class="key" id="minus" onclick=" keyb('-')">
+                    -
+                </button>
+                <button class="key" id="add" onclick=" keyb('+')">
+                    +
+                </button>
+                <button class="key" id="equal" onclick="ans()">
+                    =
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+<script src="script.js">
+</script>
+
+</html>

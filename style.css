@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body {
+    font-family: 'rubik', sans-serif;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width:991px) {
+    .bod {
+        font-family: 'rubik', sans-serif;
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        color: white;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: RGB(45, 43, 55);
+        align-items: center;
+        /* overflow-x: hidden; */
+    }
+    .screen {
+        color: RGB(45, 43, 55);
+        height: 36vh;
+        width: 100vw;
+        display: flex;
+        /* background-color: lawngreen; */
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .ans {
+        font-size: 4rem;
+        font-weight: 700;
+        height: 15vh;
+        margin-right: 3%;
+        text-align: end;
+        width: 90vw;
+        color: RGB(92, 80, 146);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .que {
+        color: RGB(92, 80, 146);
+        font-size: 2rem;
+        height: 6vh;
+        text-align: end;
+        margin-right: 3%;
+        width: 90vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-weight: 900;
+    }
+    .keyb {
+        height: 56vh;
+        width: 100vw;
+        /* background-color: lightcyan; */
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .row1 {
+        height: 55vh;
+        width: 20vw;
+        font-size: 2.4rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .key,
+    .keyn {
+        height: 9vh;
+        width: 19vw;
+        color: white;
+        display: grid;
+        font-size: 2rem;
+        border: none;
+        place-items: center;
+        border-radius: 90px;
+        background-color: rgb(45, 43, 55);
+    }
+    .keyn {
+        background-color: RGB(45, 43, 55);
+        border: none;
+    }
+    #Ac {
+        color: RGB(98, 80, 172);
+    }
+    #div,
+    #mult,
+    #minus,
+    #add,
+    #equal {
+        background-color: RGB(191, 191, 193);
+        color: rgb(37, 37, 37);
+    }
+    #del {
+        color: rgb(180, 0, 0);
+    }
+}
+
+@media only screen and (min-width:992px) {
+    body {
+        font-family: 'rubik', sans-serif;
+        height: 100vh;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        place-items: center;
+        overflow-x: hidden;
+    }
+    .bod {
+        font-family: 'rubik', sans-serif;
+        border-radius: 20px;
+        height: 89vh;
+        width: 30vw;
+        margin: 0;
+        color: white;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: RGB(45, 43, 55);
+        align-items: center;
+    }
+    .screen {
+        color: RGB(45, 43, 55);
+        height: 10vh;
+        width: 30vw;
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .ans {
+        font-size: 4rem;
+        font-weight: 700;
+        text-align: end;
+        height: 15vh;
+        margin-right: 3%;
+        width: 28vw;
+        color: RGB(45, 43, 55);
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .que {
+        color: RGB(45, 43, 55);
+        text-align: end;
+        font-size: 2rem;
+        height: 6vh;
+        margin-right: 3%;
+        width: 28vw;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        font-weight: 900;
+    }
+    .keyb {
+        height: 45vh;
+        width: 28vw;
+        color: black;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .row1 {
+        height: 53vh;
+        width: 30vw;
+        font-size: 2.4rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .key,
+    .keyn {
+        height: 10vh;
+        width: 4.5vw;
+        margin: 3%;
+        color: white;
+        display: grid;
+        font-size: 2rem;
+        border: none;
+        place-items: center;
+        border-radius: 90px;
+        background-color: RGB(45, 43, 55);
+    }
+    .keyn {
+        background-color: RGB(45, 43, 55);
+        border: none;
+    }
+    #Ac {
+        color: RGB(98, 80, 172);
+    }
+    #div,
+    #mult,
+    #minus,
+    #add,
+    #equal {
+        background-color: RGB(191, 191, 193);
+        color: rgb(37, 37, 37);
+    }
+    #del {
+        color: rgb(180, 0, 0);
+    }
+}
+
+
+/* @media only screen and (max-width:1034px) {} */
